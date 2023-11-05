@@ -1,8 +1,10 @@
 package org.acme.auditing.domain;
 
 public enum EntityType {
-    ITEM,
+    CUSTOMER,
+    VENDOR,
+    PRODUCT,
     GREETING,
-    SETTING,
-    PLAYER
+
+    UNKNOWN_ENTITY
 }
